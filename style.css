@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 20vh;
+    margin-top: 30px;
+}
+
+.container1{
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 20vh;
+    width: 20vw;
+    cursor: cell;
+}
+
+.bottom{
+    margin-top: 60px;
+}
+
+.inp{
+    margin-top: 10px;
+}
+
+input{
+    margin-top: 10px;
+    height: 7vh;
+    width: 30vw;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.checkbox{
+    display: flex;
+    height: 20px;
+    width: 15px;
+    color: green;
+    cursor: pointer;
+}
+
+.check{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.check p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.btn-1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn{
+    height: 40px;
+    width: 130px;
+    text-align: center;
+    padding: 1px;
+    padding-right: 5px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgb(113, 182, 113);
+}
+
+.btn:hover{
+    background-color: rgb(136, 208, 136);
+    transition: .3s linear;
+}
+
+h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.final-btn{
+    height: 7vh;
+    width: 32vw;
+    border-radius: none;
+    margin-top: 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid black;
+    color: grey;
+}
+
+.final-btn:hover{
+    border: 1px solid gray;
+}
+
+.line{
+    height: 0.7px;
+    background-color:gray;
+    margin-top: 30px;
+    opacity: .5;
+}
+
+.facebook{
+    background-color: rgb(66, 66, 225);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    word-spacing: 2px;
+}
+
+.apple{
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    word-spacing: 2px;
+}
+
+.google{
+    /* background-color: lightgray; */
+    text-transform: uppercase;
+    font-size: 12px;
+    word-spacing: 2px;
+    color: grey;
+}
+
+.or{
+    text-align: center;
+    margin: 10px;
+    opacity: 0.5;
+}
